@@ -11,3 +11,5 @@ To set up your new GitHub repository, follow these steps:
 * In the **Source** dropdown menu, select "GitHub Actions".
 
 After following the steps above, you can remove this section from the README file.
+
+# GraduateCourse26
