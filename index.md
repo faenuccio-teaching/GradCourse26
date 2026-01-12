@@ -8,6 +8,8 @@ This website contains many information about the Graduate Course *Formalized Mat
 The teacher is [Filippo A. E. Nuccio](https://perso.univ-st-etienne.fr/nf51454h/) and all material is in English: classes will be in French or in English according to participants.
 
 For every lecture, there is a `.md` file (exported also as a `.pdf`), that you find below and that contains all material discussed in class; alongside these files, there is also a `.lean` file shown during class, whose solutions are posted the day following the lecture, in general.
+
+The documentation for the Mathlib version used in this project is available [here](https://faenuccio-teaching.github.io/GraduateCourse26/docs/index.html). 
 # Agenda
 Classes take place from 13h30 to 16h30 in... according to the following calendar:
 
