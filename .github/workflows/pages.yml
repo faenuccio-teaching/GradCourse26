@@ -18,7 +18,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      # ---- Build Jekyll site (Site A) ----
+      # ---- Build Jekyll site (homepage) ----
       - uses: ruby/setup-ruby@v1
         with:
           ruby-version: "3.1"
@@ -27,11 +27,11 @@ jobs:
       - run: bundle install
       - run: bundle exec jekyll build
 
-      # ---- Copy Lean docs (Site B) ----
+      # ---- Copy Lean docs (prebuilt) ----
       - name: Copy Lean docs into site
         run: |
           mkdir -p _site/docs
-          cp -r docbuild/* _site/docs/
+          cp -r docbuild/.lake/build/doc/* _site/docs/
 
       # ---- Deploy both together ----
       - uses: actions/upload-pages-artifact@v3

@@ -3,14 +3,13 @@ layout: default
 ---
 
 # Bienvenue
-Ce site contient les informations concernant le Cours Avancé [Formalisation Mathématique](https://www.math.ens.psl.eu/formations/ca-formalisation-mathematique/) pour le M1 du Département de mathématiques et applications de l'ENS-Paris, qui a lieu au deuxième semestre 2025--26.
+This website contains many information about the Graduate Course *Formalized Mathematics in Lean* for the *École Doctorale Info-Math de Lyon*, in Spring 2026.
 
-Le cours est assuré par [Filippo A. E. Nuccio](https://perso.univ-st-etienne.fr/nf51454h/). Le matériel est en anglais, le cours aura (probablement) lieu en français.
+The teacher is [Filippo A. E. Nuccio](https://perso.univ-st-etienne.fr/nf51454h/) and all material is in English: classes will be in French or in English according to participants.
 
-Chaque cours vient avec un fichier `.md` (exporté en `.pdf` aussi) que vous trouvez plus bas et qui contient le matériel discuté, ainsi qu'avec un fichier `.lean` à utiliser pendant le cours. Les solutions sont rajoutées le lendemain du cours, en général.
-
+For every lecture, there is a `.md` file (exported also as a `.pdf`), that you find below and that contains all material discussed in class; alongside these files, there is also a `.lean` file shown during class, whose solutions are posted the day following the lecture, in general.
 # Agenda
-Les cours ont lieu de 13h30 à 16h30 en salle... selon le calendrier suivant:
+Classes take place from 13h30 to 16h30 in... according to the following calendar:
 
 | Date      | Cours         | Fichiers annexes | Notes
 |-----------|---------------|---------------|---------------
@@ -27,7 +26,7 @@ Les cours ont lieu de 13h30 à 16h30 en salle... selon le calendrier suivant:
 | 14 avril | séminaire étudiants | |
 
 
-# Matériel
+# References
 
 Il n'y a pas (encore) beaucoup de livres qui parlent de `Lean`, mais le très beau
 * [Mathematical Components](https://math-comp.github.io/mcb/), par A. Mahboubi et E. Tassi, bien que conçu pour l'assistant de preuve [`Rocq`](https://rocq-prover.org/), est une excellente présentation à ce qu'est la formalisation mathématique en général.
