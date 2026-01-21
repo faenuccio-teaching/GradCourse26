@@ -22,15 +22,6 @@ jobs:
             exit 1
           fi
 
-      - name: Ensure docbuild exists
-        run: |
-          if [ -d docbuild ]; then
-            echo "docbuild exists — skipping creation"
-            else
-            echo "docbuild missing — creating it"
-            mkdir docbuild
-            fi
-
       - uses: actions/checkout@v4
 
       - name: Install Lean
@@ -38,6 +29,7 @@ jobs:
 
       - name: Build Lean docs
         run: |
+          mkdir -p docbuild
           cd docbuild
           lake build GradCourse26:docs
 
