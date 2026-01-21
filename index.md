@@ -9,7 +9,7 @@ The teacher is [Filippo A. E. Nuccio](https://perso.univ-st-etienne.fr/nf51454h/
 
 For every lecture, there is a `.md` file (exported also as a `.pdf`), that you find below and that contains all material discussed in class; alongside these files, there is also a `.lean` file shown during class, whose solutions are posted the day following the lecture, in general.
 
-The Mathlib `commit` upon which this project is build is [32d2424](https://github.com/leanprover-community/mathlib4/commits/32d24245c7a12ded17325299fd41d412022cd3fe): the documentation for the Mathlib version used in this project is available [here](https://faenuccio-teaching.github.io/GraduateCourse26/docs/index.html). 
+The Mathlib `commit` upon which this project is build is [32d2424](https://github.com/leanprover-community/mathlib4/commits/32d24245c7a12ded17325299fd41d412022cd3fe): the documentation for the Mathlib version used in this project is available [here](https://faenuccio-teaching.github.io/GradCourse26/docs/index.html). 
 ## Agenda
 Classes take place from 14h00 to 17h00 at the "site Monod" of the École Normale Supérieure (more information to come) according to the following calendar:
 
