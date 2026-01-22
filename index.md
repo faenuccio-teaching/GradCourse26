@@ -27,9 +27,9 @@ Classes take place from 14h00 to 17h00 at the "site Monod" of the École Normale
 There aren't many books detailing how `Lean` works, but the beautiful
 * [Mathematical Components](https://math-comp.github.io/mcb/), by A. Mahboubi and E. Tassi, 
 
-    tailored around the proof assistant [`Rocq`](https://rocq-prover.org/), is an excellent introduction to what formalization of mathematics is.
+    tailored around the proof assistant [`Rocq`](https://rocq-prover.org/), is an excellent introduction to what the formalisation of mathematics is. The third chapter contains a nice introduction to the "type theory" that we use.
 
-For everything concerning the "type theory" that we'll be using, a nice introduction is the first chapter "Type theory" of the
+Another survey of what is needed type-theoretically can be found in the first chapter "Type theory" of the
 * [Homotopy Type Theory (a.k.a. "HoTT book")](https://homotopytypetheory.org/book/)
 
 A more complete source, extremely well written and a really pleasant read is
